@@ -41,7 +41,7 @@ export const Producto = ({history}) => {
                   <h2>CLP  ${producto.precio}</h2>
                   <button onClick ={() => anadirCarro(producto.id)}> Agregar al carrito </button>
                   <button onClick ={() => window.location.href ="/carrito"}>Ir al carrito</button>
-                  <button onClick ={() => history.push('/')} >Volver </button>
+                  <button onClick ={() => history.push('/')} > Volver </button>
                 </div>
               </div>
             </div>
