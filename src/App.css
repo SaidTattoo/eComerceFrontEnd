@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.banner{
+  width: 100%;
+}
+.conteiner{
+  width: 90%;
+  margin:auto;
+  background-color: #fff;
+  height:200px;
+  margin-top:-400px
+}
+.box{
+  display: inline-block;
+  background-color: #fff;
+}
+button{
+  background-color: white;
+  border:1px solid #ccc;
+  padding:10px;
+  border-radius: 10px;
+}
+.compras{
+    padding-left:10px;
+}
